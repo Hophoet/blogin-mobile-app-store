@@ -3,6 +3,7 @@
 import '../static/css/home.css'
 // import Carousel from '../components/Carousel'
 import m8 from '../static/images/m4.png'
+import apk from '../apk/BloGin.apk'
 
 function App() {
   return (
@@ -16,11 +17,13 @@ function App() {
         </p>
         <div>
           <ul>
-            <li>Source code : <a target="_blank"  href="hophoet.com">click here</a></li>
+            <li>Mobile app source code : <a target="_blank"  href="https://github.com/Hophoet/blogin-mobile-app">click here</a></li>
+            <li>Backend source code : <a target="_blank"  href="https://github.com/Hophoet/bloginapi">click here</a></li>
+
             <li>Developer: <a target="_blank" href='http://www.hophoet.com/'>hophoet</a> </li>
           </ul>
         </div>
-        <a className="btn btn-info" href='' >Download now</a>
+        <a className="btn btn-info" href={apk} >Download now</a>
         
       </div>
      
