@@ -28,6 +28,9 @@
     margin:0;
     text-align: center;
 }
+.home__info > h1{
+    font-weight: bold;
+}
 
 .mockup{
     width: 100%;
